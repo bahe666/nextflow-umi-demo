@@ -1,0 +1,2399 @@
+{
+  "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+  "pkg": {
+    "name": "nextflow-umi-demo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "dev": "max dev",
+      "build": "max build",
+      "start": "max preview"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "commonjs",
+    "dependencies": {
+      "@umijs/max": "^4.6.45"
+    },
+    "devDependencies": {
+      "sass": "^1.99.0",
+      "typescript": "^6.0.3"
+    }
+  },
+  "pkgPath": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/package.json",
+  "plugins": {
+    "./node_modules/@umijs/core/dist/service/servicePlugin": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "preset",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/core/dist/service/servicePlugin.js",
+      "id": "./node_modules/@umijs/core/dist/service/servicePlugin",
+      "key": "servicePlugin",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "register"
+    },
+    "@umijs/preset-umi": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "preset",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/preset-umi/dist/index.js",
+      "id": "@umijs/preset-umi",
+      "key": "umi",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 2
+      },
+      "enableBy": "register"
+    },
+    "./node_modules/@umijs/max/dist/preset": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "preset",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/max/dist/preset.js",
+      "id": "./node_modules/@umijs/max/dist/preset",
+      "key": "preset",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "register"
+    },
+    "./node_modules/@umijs/preset-umi/dist/registerMethods": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/preset-umi/dist/registerMethods.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/registerMethods",
+      "key": "registerMethods",
+      "config": {},
+      "time": {
+        "hooks": {
+          "onStart": [
+            0
+          ]
+        },
+        "register": 1
+      },
+      "enableBy": "register"
+    },
+    "@umijs/did-you-know": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/did-you-know/dist/plugin.js",
+      "id": "@umijs/did-you-know",
+      "key": "umijsDidYouKnow",
+      "config": {},
+      "time": {
+        "hooks": {
+          "onStart": [
+            1
+          ]
+        },
+        "register": 2
+      },
+      "enableBy": "register"
+    },
+    "./node_modules/@umijs/preset-umi/dist/features/404/404": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/preset-umi/dist/features/404/404.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/404/404",
+      "key": "404",
+      "config": {},
+      "time": {
+        "hooks": {
+          "modifyRoutes": [
+            0
+          ]
+        },
+        "register": 0
+      },
+      "enableBy": "register"
+    },
+    "./node_modules/@umijs/preset-umi/dist/features/aiDev/aiDev": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/preset-umi/dist/features/aiDev/aiDev.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/aiDev/aiDev",
+      "key": "aiDev",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "register"
+    },
+    "./node_modules/@umijs/preset-umi/dist/features/appData/appData": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/preset-umi/dist/features/appData/appData.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/appData/appData",
+      "key": "appData",
+      "config": {},
+      "time": {
+        "hooks": {
+          "modifyAppData": [
+            47
+          ]
+        },
+        "register": 11
+      },
+      "enableBy": "register"
+    },
+    "./node_modules/@umijs/preset-umi/dist/features/appData/umiInfo": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/preset-umi/dist/features/appData/umiInfo.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/appData/umiInfo",
+      "key": "umiInfo",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "register"
+    },
+    "./node_modules/@umijs/preset-umi/dist/features/check/check": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/preset-umi/dist/features/check/check.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/check/check",
+      "key": "check",
+      "config": {},
+      "time": {
+        "hooks": {
+          "onCheckConfig": [
+            0
+          ],
+          "onCheck": [
+            0
+          ]
+        },
+        "register": 1
+      },
+      "enableBy": "register"
+    },
+    "./node_modules/@umijs/preset-umi/dist/features/check/babel722": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/preset-umi/dist/features/check/babel722.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/check/babel722",
+      "key": "babel722",
+      "config": {},
+      "time": {
+        "hooks": {
+          "onCheck": [
+            0
+          ]
+        },
+        "register": 0
+      },
+      "enableBy": "register"
+    },
+    "./node_modules/@umijs/preset-umi/dist/features/codeSplitting/codeSplitting": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/preset-umi/dist/features/codeSplitting/codeSplitting.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/codeSplitting/codeSplitting",
+      "key": "codeSplitting",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "config"
+    },
+    "./node_modules/@umijs/preset-umi/dist/features/configPlugins/configPlugins": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/preset-umi/dist/features/configPlugins/configPlugins.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/configPlugins/configPlugins",
+      "key": "configPlugins",
+      "config": {},
+      "time": {
+        "hooks": {
+          "modifyConfig": [
+            0
+          ]
+        },
+        "register": 4
+      },
+      "enableBy": "register"
+    },
+    "virtual: config-title": {
+      "id": "virtual: config-title",
+      "key": "title",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-styles": {
+      "id": "virtual: config-styles",
+      "key": "styles",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-scripts": {
+      "id": "virtual: config-scripts",
+      "key": "scripts",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-routes": {
+      "id": "virtual: config-routes",
+      "key": "routes",
+      "config": {
+        "onChange": "regenerateTmpFiles"
+      },
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-routeLoader": {
+      "id": "virtual: config-routeLoader",
+      "key": "routeLoader",
+      "config": {
+        "default": {
+          "moduleType": "esm"
+        }
+      },
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-reactRouter5Compat": {
+      "id": "virtual: config-reactRouter5Compat",
+      "key": "reactRouter5Compat",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-presets": {
+      "id": "virtual: config-presets",
+      "key": "presets",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-plugins": {
+      "id": "virtual: config-plugins",
+      "key": "plugins",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-npmClient": {
+      "id": "virtual: config-npmClient",
+      "key": "npmClient",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-mountElementId": {
+      "id": "virtual: config-mountElementId",
+      "key": "mountElementId",
+      "config": {
+        "default": "root"
+      },
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-metas": {
+      "id": "virtual: config-metas",
+      "key": "metas",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-links": {
+      "id": "virtual: config-links",
+      "key": "links",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-historyWithQuery": {
+      "id": "virtual: config-historyWithQuery",
+      "key": "historyWithQuery",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-history": {
+      "id": "virtual: config-history",
+      "key": "history",
+      "config": {
+        "default": {
+          "type": "browser"
+        }
+      },
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-headScripts": {
+      "id": "virtual: config-headScripts",
+      "key": "headScripts",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-esbuildMinifyIIFE": {
+      "id": "virtual: config-esbuildMinifyIIFE",
+      "key": "esbuildMinifyIIFE",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-conventionRoutes": {
+      "id": "virtual: config-conventionRoutes",
+      "key": "conventionRoutes",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-conventionLayout": {
+      "id": "virtual: config-conventionLayout",
+      "key": "conventionLayout",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-base": {
+      "id": "virtual: config-base",
+      "key": "base",
+      "config": {
+        "default": "/"
+      },
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-analyze": {
+      "id": "virtual: config-analyze",
+      "key": "analyze",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-writeToDisk": {
+      "id": "virtual: config-writeToDisk",
+      "key": "writeToDisk",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-transformRuntime": {
+      "id": "virtual: config-transformRuntime",
+      "key": "transformRuntime",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-theme": {
+      "id": "virtual: config-theme",
+      "key": "theme",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-targets": {
+      "id": "virtual: config-targets",
+      "key": "targets",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-svgr": {
+      "id": "virtual: config-svgr",
+      "key": "svgr",
+      "config": {
+        "default": {}
+      },
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-svgo": {
+      "id": "virtual: config-svgo",
+      "key": "svgo",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-stylusLoader": {
+      "id": "virtual: config-stylusLoader",
+      "key": "stylusLoader",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-styleLoader": {
+      "id": "virtual: config-styleLoader",
+      "key": "styleLoader",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-srcTranspilerOptions": {
+      "id": "virtual: config-srcTranspilerOptions",
+      "key": "srcTranspilerOptions",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-srcTranspiler": {
+      "id": "virtual: config-srcTranspiler",
+      "key": "srcTranspiler",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-sassLoader": {
+      "id": "virtual: config-sassLoader",
+      "key": "sassLoader",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-runtimePublicPath": {
+      "id": "virtual: config-runtimePublicPath",
+      "key": "runtimePublicPath",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-purgeCSS": {
+      "id": "virtual: config-purgeCSS",
+      "key": "purgeCSS",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-publicPath": {
+      "id": "virtual: config-publicPath",
+      "key": "publicPath",
+      "config": {
+        "default": "/"
+      },
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-proxy": {
+      "id": "virtual: config-proxy",
+      "key": "proxy",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-postcssLoader": {
+      "id": "virtual: config-postcssLoader",
+      "key": "postcssLoader",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-outputPath": {
+      "id": "virtual: config-outputPath",
+      "key": "outputPath",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-normalCSSLoaderModules": {
+      "id": "virtual: config-normalCSSLoaderModules",
+      "key": "normalCSSLoaderModules",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-mfsu": {
+      "id": "virtual: config-mfsu",
+      "key": "mfsu",
+      "config": {
+        "default": {
+          "strategy": "eager"
+        }
+      },
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-mdx": {
+      "id": "virtual: config-mdx",
+      "key": "mdx",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-manifest": {
+      "id": "virtual: config-manifest",
+      "key": "manifest",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-lessLoader": {
+      "id": "virtual: config-lessLoader",
+      "key": "lessLoader",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-jsMinifierOptions": {
+      "id": "virtual: config-jsMinifierOptions",
+      "key": "jsMinifierOptions",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-jsMinifier": {
+      "id": "virtual: config-jsMinifier",
+      "key": "jsMinifier",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-inlineLimit": {
+      "id": "virtual: config-inlineLimit",
+      "key": "inlineLimit",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-ignoreMomentLocale": {
+      "id": "virtual: config-ignoreMomentLocale",
+      "key": "ignoreMomentLocale",
+      "config": {
+        "default": true
+      },
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-https": {
+      "id": "virtual: config-https",
+      "key": "https",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-hash": {
+      "id": "virtual: config-hash",
+      "key": "hash",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-forkTSChecker": {
+      "id": "virtual: config-forkTSChecker",
+      "key": "forkTSChecker",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-fastRefresh": {
+      "id": "virtual: config-fastRefresh",
+      "key": "fastRefresh",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-extraPostCSSPlugins": {
+      "id": "virtual: config-extraPostCSSPlugins",
+      "key": "extraPostCSSPlugins",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-extraBabelPresets": {
+      "id": "virtual: config-extraBabelPresets",
+      "key": "extraBabelPresets",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-extraBabelPlugins": {
+      "id": "virtual: config-extraBabelPlugins",
+      "key": "extraBabelPlugins",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-extraBabelIncludes": {
+      "id": "virtual: config-extraBabelIncludes",
+      "key": "extraBabelIncludes",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-externals": {
+      "id": "virtual: config-externals",
+      "key": "externals",
+      "config": {
+        "default": {}
+      },
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-esm": {
+      "id": "virtual: config-esm",
+      "key": "esm",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-devtool": {
+      "id": "virtual: config-devtool",
+      "key": "devtool",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-depTranspiler": {
+      "id": "virtual: config-depTranspiler",
+      "key": "depTranspiler",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-define": {
+      "id": "virtual: config-define",
+      "key": "define",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-deadCode": {
+      "id": "virtual: config-deadCode",
+      "key": "deadCode",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-cssPublicPath": {
+      "id": "virtual: config-cssPublicPath",
+      "key": "cssPublicPath",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-cssMinifierOptions": {
+      "id": "virtual: config-cssMinifierOptions",
+      "key": "cssMinifierOptions",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-cssMinifier": {
+      "id": "virtual: config-cssMinifier",
+      "key": "cssMinifier",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-cssLoaderModules": {
+      "id": "virtual: config-cssLoaderModules",
+      "key": "cssLoaderModules",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-cssLoader": {
+      "id": "virtual: config-cssLoader",
+      "key": "cssLoader",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-copy": {
+      "id": "virtual: config-copy",
+      "key": "copy",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-checkDepCssModules": {
+      "id": "virtual: config-checkDepCssModules",
+      "key": "checkDepCssModules",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-chainWebpack": {
+      "id": "virtual: config-chainWebpack",
+      "key": "chainWebpack",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-cacheDirectoryPath": {
+      "id": "virtual: config-cacheDirectoryPath",
+      "key": "cacheDirectoryPath",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-babelLoaderCustomize": {
+      "id": "virtual: config-babelLoaderCustomize",
+      "key": "babelLoaderCustomize",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-autoprefixer": {
+      "id": "virtual: config-autoprefixer",
+      "key": "autoprefixer",
+      "config": {},
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-autoCSSModules": {
+      "id": "virtual: config-autoCSSModules",
+      "key": "autoCSSModules",
+      "config": {
+        "default": true
+      },
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "virtual: config-alias": {
+      "id": "virtual: config-alias",
+      "key": "alias",
+      "config": {
+        "default": {
+          "umi": "@@/exports",
+          "react": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/react",
+          "react-dom": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/react-dom",
+          "react-router": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/react-router",
+          "react-router-dom": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/react-router-dom"
+        }
+      },
+      "type": "plugin",
+      "enableBy": "register",
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "./node_modules/@umijs/preset-umi/dist/features/crossorigin/crossorigin": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/preset-umi/dist/features/crossorigin/crossorigin.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/crossorigin/crossorigin",
+      "key": "crossorigin",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "config"
+    },
+    "./node_modules/@umijs/preset-umi/dist/features/depsOnDemand/depsOnDemand": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/preset-umi/dist/features/depsOnDemand/depsOnDemand.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/depsOnDemand/depsOnDemand",
+      "key": "depsOnDemand",
+      "config": {},
+      "time": {
+        "hooks": {
+          "onStart": [
+            0
+          ]
+        },
+        "register": 0
+      },
+      "enableBy": "register"
+    },
+    "./node_modules/@umijs/preset-umi/dist/features/devTool/devTool": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/preset-umi/dist/features/devTool/devTool.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/devTool/devTool",
+      "key": "devTool",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "register"
+    },
+    "./node_modules/@umijs/preset-umi/dist/features/esbuildHelperChecker/esbuildHelperChecker": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/preset-umi/dist/features/esbuildHelperChecker/esbuildHelperChecker.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/esbuildHelperChecker/esbuildHelperChecker",
+      "key": "esbuildHelperChecker",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 34
+      },
+      "enableBy": "register"
+    },
+    "./node_modules/@umijs/preset-umi/dist/features/esmi/esmi": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/preset-umi/dist/features/esmi/esmi.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/esmi/esmi",
+      "key": "esmi",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 22
+      },
+      "enableBy": "config"
+    },
+    "./node_modules/@umijs/preset-umi/dist/features/exportStatic/exportStatic": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/preset-umi/dist/features/exportStatic/exportStatic.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/exportStatic/exportStatic",
+      "key": "exportStatic",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 9
+      },
+      "enableBy": "config"
+    },
+    "./node_modules/@umijs/preset-umi/dist/features/favicons/favicons": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/preset-umi/dist/features/favicons/favicons.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/favicons/favicons",
+      "key": "favicons",
+      "config": {},
+      "time": {
+        "hooks": {
+          "modifyAppData": [
+            0
+          ]
+        },
+        "register": 1
+      },
+      "enableBy": "register"
+    },
+    "./node_modules/@umijs/preset-umi/dist/features/helmet/helmet": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/preset-umi/dist/features/helmet/helmet.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/helmet/helmet",
+      "key": "helmet",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "register"
+    },
+    "./node_modules/@umijs/preset-umi/dist/features/icons/icons": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/preset-umi/dist/features/icons/icons.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/icons/icons",
+      "key": "icons",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "config"
+    },
+    "./node_modules/@umijs/preset-umi/dist/features/mock/mock": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/preset-umi/dist/features/mock/mock.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/mock/mock",
+      "key": "mock",
+      "config": {},
+      "time": {
+        "hooks": {
+          "onStart": [
+            1
+          ]
+        },
+        "register": 16
+      }
+    },
+    "./node_modules/@umijs/preset-umi/dist/features/mpa/mpa": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/preset-umi/dist/features/mpa/mpa.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/mpa/mpa",
+      "key": "mpa",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "config"
+    },
+    "./node_modules/@umijs/preset-umi/dist/features/okam/okam": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/preset-umi/dist/features/okam/okam.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/okam/okam",
+      "key": "okam",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "./node_modules/@umijs/preset-umi/dist/features/overrides/overrides": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/preset-umi/dist/features/overrides/overrides.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/overrides/overrides",
+      "key": "overrides",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "register"
+    },
+    "./node_modules/@umijs/preset-umi/dist/features/phantomDependency/phantomDependency": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/preset-umi/dist/features/phantomDependency/phantomDependency.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/phantomDependency/phantomDependency",
+      "key": "phantomDependency",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "config"
+    },
+    "./node_modules/@umijs/preset-umi/dist/features/polyfill/polyfill": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/preset-umi/dist/features/polyfill/polyfill.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/polyfill/polyfill",
+      "key": "polyfill",
+      "config": {},
+      "time": {
+        "hooks": {
+          "modifyConfig": [
+            0
+          ]
+        },
+        "register": 0
+      }
+    },
+    "./node_modules/@umijs/preset-umi/dist/features/polyfill/publicPathPolyfill": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/preset-umi/dist/features/polyfill/publicPathPolyfill.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/polyfill/publicPathPolyfill",
+      "key": "publicPathPolyfill",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "register"
+    },
+    "./node_modules/@umijs/preset-umi/dist/features/prepare/prepare": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/preset-umi/dist/features/prepare/prepare.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/prepare/prepare",
+      "key": "prepare",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "register"
+    },
+    "./node_modules/@umijs/preset-umi/dist/features/routePrefetch/routePrefetch": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/preset-umi/dist/features/routePrefetch/routePrefetch.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/routePrefetch/routePrefetch",
+      "key": "routePrefetch",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "config"
+    },
+    "./node_modules/@umijs/preset-umi/dist/features/stagewise/stagewise": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/preset-umi/dist/features/stagewise/stagewise.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/stagewise/stagewise",
+      "key": "stagewise",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "config"
+    },
+    "./node_modules/@umijs/preset-umi/dist/features/terminal/terminal": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/preset-umi/dist/features/terminal/terminal.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/terminal/terminal",
+      "key": "terminal",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "register"
+    },
+    "./node_modules/@umijs/preset-umi/dist/features/tmpFiles/tmpFiles": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/preset-umi/dist/features/tmpFiles/tmpFiles.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/tmpFiles/tmpFiles",
+      "key": "tmpFiles",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 2
+      },
+      "enableBy": "register"
+    },
+    "./node_modules/@umijs/preset-umi/dist/features/clientLoader/clientLoader": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/preset-umi/dist/features/clientLoader/clientLoader.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/clientLoader/clientLoader",
+      "key": "clientLoader",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "config"
+    },
+    "./node_modules/@umijs/preset-umi/dist/features/routeProps/routeProps": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/preset-umi/dist/features/routeProps/routeProps.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/routeProps/routeProps",
+      "key": "routeProps",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "./node_modules/@umijs/preset-umi/dist/features/ssr/ssr": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/preset-umi/dist/features/ssr/ssr.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/ssr/ssr",
+      "key": "ssr",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "config"
+    },
+    "./node_modules/@umijs/preset-umi/dist/features/tmpFiles/configTypes": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/preset-umi/dist/features/tmpFiles/configTypes.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/tmpFiles/configTypes",
+      "key": "configTypes",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 2
+      },
+      "enableBy": "register"
+    },
+    "./node_modules/@umijs/preset-umi/dist/features/transform/transform": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/preset-umi/dist/features/transform/transform.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/transform/transform",
+      "key": "transform",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "register"
+    },
+    "./node_modules/@umijs/preset-umi/dist/features/lowImport/lowImport": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/preset-umi/dist/features/lowImport/lowImport.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/lowImport/lowImport",
+      "key": "lowImport",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "config"
+    },
+    "./node_modules/@umijs/preset-umi/dist/features/vite/vite": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/preset-umi/dist/features/vite/vite.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/vite/vite",
+      "key": "vite",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "config"
+    },
+    "./node_modules/@umijs/preset-umi/dist/features/apiRoute/apiRoute": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/preset-umi/dist/features/apiRoute/apiRoute.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/apiRoute/apiRoute",
+      "key": "apiRoute",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 3
+      }
+    },
+    "./node_modules/@umijs/preset-umi/dist/features/monorepo/redirect": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/preset-umi/dist/features/monorepo/redirect.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/monorepo/redirect",
+      "key": "monorepoRedirect",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 9
+      },
+      "enableBy": "config"
+    },
+    "./node_modules/@umijs/preset-umi/dist/features/test/test": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/preset-umi/dist/features/test/test.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/test/test",
+      "key": "test",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      }
+    },
+    "./node_modules/@umijs/preset-umi/dist/features/clickToComponent/clickToComponent": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/preset-umi/dist/features/clickToComponent/clickToComponent.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/clickToComponent/clickToComponent",
+      "key": "clickToComponent",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "config"
+    },
+    "./node_modules/@umijs/preset-umi/dist/features/legacy/legacy": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/preset-umi/dist/features/legacy/legacy.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/legacy/legacy",
+      "key": "legacy",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "config"
+    },
+    "./node_modules/@umijs/preset-umi/dist/features/classPropertiesLoose/classPropertiesLoose": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/preset-umi/dist/features/classPropertiesLoose/classPropertiesLoose.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/classPropertiesLoose/classPropertiesLoose",
+      "key": "classPropertiesLoose",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "config"
+    },
+    "./node_modules/@umijs/preset-umi/dist/features/webpack/webpack": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/preset-umi/dist/features/webpack/webpack.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/webpack/webpack",
+      "key": "preset-umi:webpack",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "./node_modules/@umijs/preset-umi/dist/features/swc/swc": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/preset-umi/dist/features/swc/swc.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/swc/swc",
+      "key": "swc",
+      "config": {},
+      "time": {
+        "hooks": {
+          "addOnDemandDeps": [
+            0
+          ]
+        },
+        "register": 0
+      },
+      "enableBy": "register"
+    },
+    "./node_modules/@umijs/preset-umi/dist/features/ui/ui": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/preset-umi/dist/features/ui/ui.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/ui/ui",
+      "key": "ui",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 2
+      }
+    },
+    "./node_modules/@umijs/preset-umi/dist/features/mako/mako": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/preset-umi/dist/features/mako/mako.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/mako/mako",
+      "key": "mako",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "config"
+    },
+    "./node_modules/@umijs/preset-umi/dist/features/utoopack/utoopack": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/preset-umi/dist/features/utoopack/utoopack.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/utoopack/utoopack",
+      "key": "utoopack",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      }
+    },
+    "./node_modules/@umijs/preset-umi/dist/features/hmrGuardian/hmrGuardian": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/preset-umi/dist/features/hmrGuardian/hmrGuardian.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/hmrGuardian/hmrGuardian",
+      "key": "hmrGuardian",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      }
+    },
+    "./node_modules/@umijs/preset-umi/dist/features/routePreloadOnLoad/routePreloadOnLoad": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/preset-umi/dist/features/routePreloadOnLoad/routePreloadOnLoad.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/routePreloadOnLoad/routePreloadOnLoad",
+      "key": "routePreloadOnLoad",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 12
+      }
+    },
+    "./node_modules/@umijs/preset-umi/dist/features/forget/forget": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/preset-umi/dist/features/forget/forget.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/forget/forget",
+      "key": "forget",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "config"
+    },
+    "./node_modules/@umijs/preset-umi/dist/features/bundler/bundler": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/preset-umi/dist/features/bundler/bundler.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/bundler/bundler",
+      "key": "preset-umi:bundler",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "register"
+    },
+    "./node_modules/@umijs/preset-umi/dist/commands/build": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/preset-umi/dist/commands/build.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/build",
+      "key": "build",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 2
+      },
+      "enableBy": "register"
+    },
+    "./node_modules/@umijs/preset-umi/dist/commands/config/config": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/preset-umi/dist/commands/config/config.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/config/config",
+      "key": "config",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 16
+      },
+      "enableBy": "register"
+    },
+    "./node_modules/@umijs/preset-umi/dist/commands/dev/dev": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/preset-umi/dist/commands/dev/dev.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/dev/dev",
+      "key": "dev",
+      "config": {},
+      "time": {
+        "hooks": {
+          "modifyAppData": [
+            6
+          ]
+        },
+        "register": 18
+      }
+    },
+    "./node_modules/@umijs/preset-umi/dist/commands/help": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/preset-umi/dist/commands/help.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/help",
+      "key": "help",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "register"
+    },
+    "./node_modules/@umijs/preset-umi/dist/commands/lint": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/preset-umi/dist/commands/lint.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/lint",
+      "key": "lint",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "register"
+    },
+    "./node_modules/@umijs/preset-umi/dist/commands/setup": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/preset-umi/dist/commands/setup.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/setup",
+      "key": "setup",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "register"
+    },
+    "./node_modules/@umijs/preset-umi/dist/commands/deadcode": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/preset-umi/dist/commands/deadcode.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/deadcode",
+      "key": "deadcode",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "register"
+    },
+    "./node_modules/@umijs/preset-umi/dist/commands/version": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/preset-umi/dist/commands/version.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/version",
+      "key": "version",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "register"
+    },
+    "./node_modules/@umijs/preset-umi/dist/commands/generators/page": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/preset-umi/dist/commands/generators/page.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/generators/page",
+      "key": "generator:page",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "register"
+    },
+    "./node_modules/@umijs/preset-umi/dist/commands/generators/prettier": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/preset-umi/dist/commands/generators/prettier.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/generators/prettier",
+      "key": "generator:prettier",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "register"
+    },
+    "./node_modules/@umijs/preset-umi/dist/commands/generators/tsconfig": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/preset-umi/dist/commands/generators/tsconfig.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/generators/tsconfig",
+      "key": "generator:tsconfig",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "register"
+    },
+    "./node_modules/@umijs/preset-umi/dist/commands/generators/jest": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/preset-umi/dist/commands/generators/jest.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/generators/jest",
+      "key": "generator:jest",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "register"
+    },
+    "./node_modules/@umijs/preset-umi/dist/commands/generators/tailwindcss": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/preset-umi/dist/commands/generators/tailwindcss.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/generators/tailwindcss",
+      "key": "generator:tailwindcss",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "register"
+    },
+    "./node_modules/@umijs/preset-umi/dist/commands/generators/dva": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/preset-umi/dist/commands/generators/dva.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/generators/dva",
+      "key": "generator:dva",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "register"
+    },
+    "./node_modules/@umijs/preset-umi/dist/commands/generators/component": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/preset-umi/dist/commands/generators/component.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/generators/component",
+      "key": "generator:component",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "register"
+    },
+    "./node_modules/@umijs/preset-umi/dist/commands/generators/mock": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/preset-umi/dist/commands/generators/mock.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/generators/mock",
+      "key": "generator:mock",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "register"
+    },
+    "./node_modules/@umijs/preset-umi/dist/commands/generators/cypress": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/preset-umi/dist/commands/generators/cypress.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/generators/cypress",
+      "key": "generator:cypress",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "register"
+    },
+    "./node_modules/@umijs/preset-umi/dist/commands/generators/api": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/preset-umi/dist/commands/generators/api.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/generators/api",
+      "key": "generator:api",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "register"
+    },
+    "./node_modules/@umijs/preset-umi/dist/commands/generators/precommit": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/preset-umi/dist/commands/generators/precommit.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/generators/precommit",
+      "key": "generator:precommit",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "register"
+    },
+    "./node_modules/@umijs/preset-umi/dist/commands/plugin": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/preset-umi/dist/commands/plugin.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/plugin",
+      "key": "command:plugin",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "register"
+    },
+    "./node_modules/@umijs/preset-umi/dist/commands/verify-commit": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/preset-umi/dist/commands/verify-commit.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/verify-commit",
+      "key": "verifyCommit",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "register"
+    },
+    "./node_modules/@umijs/preset-umi/dist/commands/preview": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/preset-umi/dist/commands/preview.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/preview",
+      "key": "preview",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 10
+      },
+      "enableBy": "register"
+    },
+    "./node_modules/@umijs/preset-umi/dist/commands/mfsu/mfsu": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/preset-umi/dist/commands/mfsu/mfsu.js",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/mfsu/mfsu",
+      "key": "mfsu-cli",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "register"
+    },
+    "@umijs/plugin-run": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/plugin-run/dist/index.js",
+      "id": "@umijs/plugin-run",
+      "key": "run",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "register"
+    },
+    "./node_modules/@umijs/plugins/dist/access": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/plugins/dist/access.js",
+      "id": "./node_modules/@umijs/plugins/dist/access",
+      "key": "access",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "config"
+    },
+    "./node_modules/@umijs/plugins/dist/analytics": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/plugins/dist/analytics.js",
+      "id": "./node_modules/@umijs/plugins/dist/analytics",
+      "key": "analytics",
+      "config": {
+        "onChange": "reload"
+      },
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "./node_modules/@umijs/plugins/dist/antd": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/plugins/dist/antd.js",
+      "id": "./node_modules/@umijs/plugins/dist/antd",
+      "key": "antd",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 5
+      }
+    },
+    "./node_modules/@umijs/plugins/dist/dva": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/plugins/dist/dva.js",
+      "id": "./node_modules/@umijs/plugins/dist/dva",
+      "key": "dva",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 2
+      },
+      "enableBy": "config"
+    },
+    "./node_modules/@umijs/plugins/dist/initial-state": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/plugins/dist/initial-state.js",
+      "id": "./node_modules/@umijs/plugins/dist/initial-state",
+      "key": "initialState",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "config"
+    },
+    "./node_modules/@umijs/plugins/dist/layout": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/plugins/dist/layout.js",
+      "id": "./node_modules/@umijs/plugins/dist/layout",
+      "key": "layout",
+      "config": {
+        "onChange": "regenerateTmpFiles"
+      },
+      "time": {
+        "hooks": {},
+        "register": 2
+      },
+      "enableBy": "config"
+    },
+    "./node_modules/@umijs/plugins/dist/locale": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/plugins/dist/locale.js",
+      "id": "./node_modules/@umijs/plugins/dist/locale",
+      "key": "locale",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "config"
+    },
+    "./node_modules/@umijs/plugins/dist/mf": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/plugins/dist/mf.js",
+      "id": "./node_modules/@umijs/plugins/dist/mf",
+      "key": "mf",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "config"
+    },
+    "./node_modules/@umijs/plugins/dist/model": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/plugins/dist/model.js",
+      "id": "./node_modules/@umijs/plugins/dist/model",
+      "key": "model",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "config"
+    },
+    "./node_modules/@umijs/plugins/dist/moment2dayjs": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/plugins/dist/moment2dayjs.js",
+      "id": "./node_modules/@umijs/plugins/dist/moment2dayjs",
+      "key": "moment2dayjs",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "config"
+    },
+    "./node_modules/@umijs/plugins/dist/qiankun": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/plugins/dist/qiankun.js",
+      "id": "./node_modules/@umijs/plugins/dist/qiankun",
+      "key": "qiankun",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "register"
+    },
+    "./node_modules/@umijs/plugins/dist/qiankun/master": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/plugins/dist/qiankun/master.js",
+      "id": "./node_modules/@umijs/plugins/dist/qiankun/master",
+      "key": "qiankun-master",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      }
+    },
+    "./node_modules/@umijs/plugins/dist/qiankun/slave": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/plugins/dist/qiankun/slave.js",
+      "id": "./node_modules/@umijs/plugins/dist/qiankun/slave",
+      "key": "qiankun-slave",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      }
+    },
+    "./node_modules/@umijs/plugins/dist/react-query": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/plugins/dist/react-query.js",
+      "id": "./node_modules/@umijs/plugins/dist/react-query",
+      "key": "reactQuery",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "config"
+    },
+    "./node_modules/@umijs/plugins/dist/request": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/plugins/dist/request.js",
+      "id": "./node_modules/@umijs/plugins/dist/request",
+      "key": "request",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "config"
+    },
+    "./node_modules/@umijs/plugins/dist/styled-components": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/plugins/dist/styled-components.js",
+      "id": "./node_modules/@umijs/plugins/dist/styled-components",
+      "key": "styledComponents",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "config"
+    },
+    "./node_modules/@umijs/plugins/dist/tailwindcss": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/plugins/dist/tailwindcss.js",
+      "id": "./node_modules/@umijs/plugins/dist/tailwindcss",
+      "key": "tailwindcss",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "config"
+    },
+    "./node_modules/@umijs/plugins/dist/valtio": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/plugins/dist/valtio.js",
+      "id": "./node_modules/@umijs/plugins/dist/valtio",
+      "key": "valtio",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "config"
+    },
+    "./node_modules/@umijs/max/dist/plugins/maxAlias": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/max/dist/plugins/maxAlias.js",
+      "id": "./node_modules/@umijs/max/dist/plugins/maxAlias",
+      "key": "maxAlias",
+      "config": {},
+      "time": {
+        "hooks": {
+          "modifyConfig": [
+            0
+          ]
+        },
+        "register": 0
+      },
+      "enableBy": "register"
+    },
+    "./node_modules/@umijs/max/dist/plugins/maxAppData": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/max/dist/plugins/maxAppData.js",
+      "id": "./node_modules/@umijs/max/dist/plugins/maxAppData",
+      "key": "maxAppData",
+      "config": {},
+      "time": {
+        "hooks": {
+          "modifyAppData": [
+            0
+          ]
+        },
+        "register": 1
+      },
+      "enableBy": "register"
+    },
+    "./node_modules/@umijs/max/dist/plugins/maxChecker": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/max/dist/plugins/maxChecker.js",
+      "id": "./node_modules/@umijs/max/dist/plugins/maxChecker",
+      "key": "maxChecker",
+      "config": {},
+      "time": {
+        "hooks": {
+          "onCheckPkgJSON": [
+            0
+          ]
+        },
+        "register": 0
+      },
+      "enableBy": "register"
+    },
+    "./node_modules/@umijs/core/dist/service/generatePlugin": {
+      "cwd": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo",
+      "type": "plugin",
+      "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/core/dist/service/generatePlugin.js",
+      "id": "./node_modules/@umijs/core/dist/service/generatePlugin",
+      "key": "generatePlugin",
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "register"
+    }
+  },
+  "presets": [],
+  "name": "dev",
+  "args": {
+    "_": []
+  },
+  "userConfig": {
+    "routes": [
+      {
+        "path": "/",
+        "component": "index"
+      },
+      {
+        "path": "/pricing",
+        "component": "pricing"
+      },
+      {
+        "path": "/register",
+        "component": "register"
+      }
+    ],
+    "sassLoader": {},
+    "locale": {
+      "default": "zh-CN",
+      "baseSeparator": "-",
+      "antd": false,
+      "baseNavigator": true,
+      "useLocalStorage": true
+    }
+  },
+  "mainConfigFile": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/.umirc.ts",
+  "config": {
+    "routeLoader": {
+      "moduleType": "esm"
+    },
+    "mountElementId": "root",
+    "history": {
+      "type": "browser"
+    },
+    "base": "/",
+    "svgr": {},
+    "publicPath": "/",
+    "mfsu": {
+      "strategy": "eager"
+    },
+    "ignoreMomentLocale": true,
+    "externals": {},
+    "autoCSSModules": true,
+    "alias": {
+      "umi": "@@/exports",
+      "react": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/react",
+      "react-dom": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/react-dom",
+      "react-router": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/react-router",
+      "react-router-dom": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/react-router-dom",
+      "@": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/src",
+      "@@": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/src/.umi",
+      "regenerator-runtime": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/@umijs/preset-umi/node_modules/regenerator-runtime",
+      "@umijs/max": "@@/exports"
+    },
+    "routes": [
+      {
+        "path": "/",
+        "component": "index"
+      },
+      {
+        "path": "/pricing",
+        "component": "pricing"
+      },
+      {
+        "path": "/register",
+        "component": "register"
+      }
+    ],
+    "sassLoader": {},
+    "locale": {
+      "default": "zh-CN",
+      "baseSeparator": "-",
+      "antd": false,
+      "baseNavigator": true,
+      "useLocalStorage": true
+    },
+    "targets": {
+      "chrome": 80
+    }
+  },
+  "routes": {
+    "1": {
+      "path": "/",
+      "file": "@/pages/index.tsx",
+      "id": "1",
+      "absPath": "/",
+      "__content": "import { useIntl, FormattedMessage, setLocale, getLocale } from 'umi';\nimport styles from './index.module.scss';\n\nexport default function IndexPage() {\n  const intl = useIntl();\n  const currentLocale = getLocale();\n\n  return (\n    <div className={styles.page}>\n      <nav className={styles.nav}>\n        <span className={styles.brand}><FormattedMessage id=\"nav.brand\" /></span>\n        <div className={styles.navLinks}>\n          <a href=\"#features\"><FormattedMessage id=\"nav.features\" /></a>\n          <a href=\"/pricing\"><FormattedMessage id=\"nav.pricing\" /></a>\n          <a href=\"/register\" className={styles.loginBtn}><FormattedMessage id=\"nav.login\" /></a>\n          <button\n            className={styles.langBtn}\n            onClick={() => setLocale(currentLocale === 'zh-CN' ? 'en-US' : 'zh-CN', false)}\n          >\n            {currentLocale === 'zh-CN' ? 'EN' : '中文'}\n          </button>\n        </div>\n      </nav>\n\n      <section className={styles.hero}>\n        <h1><FormattedMessage id=\"home.title\" /></h1>\n        <p className={styles.subtitle}><FormattedMessage id=\"home.subtitle\" /></p>\n        <div className={styles.ctas}>\n          <a href=\"/register\" className={styles.primaryBtn}><FormattedMessage id=\"home.cta.primary\" /></a>\n          <a href=\"/register\" className={styles.secondaryBtn}><FormattedMessage id=\"home.cta.secondary\" /></a>\n        </div>\n      </section>\n\n      <section id=\"features\" className={styles.features}>\n        <h2><FormattedMessage id=\"home.features.title\" /></h2>\n        <div className={styles.cards}>\n          <div className={styles.card}>\n            <h3><FormattedMessage id=\"home.features.task.title\" /></h3>\n            <p><FormattedMessage id=\"home.features.task.desc\" /></p>\n          </div>\n          <div className={styles.card}>\n            <h3><FormattedMessage id=\"home.features.board.title\" /></h3>\n            <p><FormattedMessage id=\"home.features.board.desc\" /></p>\n          </div>\n          <div className={styles.card}>\n            <h3><FormattedMessage id=\"home.features.data.title\" /></h3>\n            <p><FormattedMessage id=\"home.features.data.desc\" /></p>\n          </div>\n        </div>\n      </section>\n\n      <section className={styles.bottomCta}>\n        <h2><FormattedMessage id=\"home.bottom.title\" /></h2>\n        <a href=\"/register\" className={styles.primaryBtn}><FormattedMessage id=\"home.cta.primary\" /></a>\n      </section>\n\n      <footer className={styles.footer}>\n        <FormattedMessage id=\"home.footer\" />\n      </footer>\n    </div>\n  );\n}\n",
+      "__isJSFile": true,
+      "__absFile": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/src/pages/index.tsx"
+    },
+    "2": {
+      "path": "/pricing",
+      "file": "@/pages/pricing.tsx",
+      "id": "2",
+      "absPath": "/pricing",
+      "__content": "import { useIntl, FormattedMessage, setLocale, getLocale } from 'umi';\nimport { useState } from 'react';\nimport styles from './pricing.module.scss';\n\nexport default function PricingPage() {\n  const intl = useIntl();\n  const currentLocale = getLocale();\n  const [openFaq, setOpenFaq] = useState<number | null>(null);\n\n  return (\n    <div className={styles.page}>\n      <nav className={styles.nav}>\n        <a href=\"/\" className={styles.brand}><FormattedMessage id=\"nav.brand\" /></a>\n        <div className={styles.navLinks}>\n          <a href=\"/#features\"><FormattedMessage id=\"nav.features\" /></a>\n          <span className={styles.active}><FormattedMessage id=\"nav.pricing\" /></span>\n          <a href=\"/register\" className={styles.loginBtn}><FormattedMessage id=\"nav.login\" /></a>\n          <button className={styles.langBtn} onClick={() => setLocale(currentLocale === 'zh-CN' ? 'en-US' : 'zh-CN', false)}>\n            {currentLocale === 'zh-CN' ? 'EN' : '中文'}\n          </button>\n        </div>\n      </nav>\n\n      <section className={styles.header}>\n        <h1><FormattedMessage id=\"pricing.title\" /></h1>\n        <p><FormattedMessage id=\"pricing.subtitle\" /></p>\n      </section>\n\n      <section className={styles.plans}>\n        <div className={styles.card}>\n          <h3><FormattedMessage id=\"pricing.starter.name\" /></h3>\n          <p className={styles.price}><FormattedMessage id=\"pricing.starter.price\" /></p>\n          <p className={styles.desc}><FormattedMessage id=\"pricing.starter.desc\" /></p>\n          <ul>\n            <li><FormattedMessage id=\"pricing.starter.f1\" /></li>\n            <li><FormattedMessage id=\"pricing.starter.f2\" /></li>\n            <li><FormattedMessage id=\"pricing.starter.f3\" /></li>\n          </ul>\n          <a href=\"/register\" className={styles.btn}><FormattedMessage id=\"pricing.starter.cta\" /></a>\n        </div>\n\n        <div className={`${styles.card} ${styles.popular}`}>\n          <span className={styles.badge}><FormattedMessage id=\"pricing.pro.badge\" /></span>\n          <h3><FormattedMessage id=\"pricing.pro.name\" /></h3>\n          <p className={styles.price}><FormattedMessage id=\"pricing.pro.price\" /></p>\n          <p className={styles.desc}><FormattedMessage id=\"pricing.pro.desc\" /></p>\n          <ul>\n            <li><FormattedMessage id=\"pricing.pro.f1\" /></li>\n            <li><FormattedMessage id=\"pricing.pro.f2\" /></li>\n            <li><FormattedMessage id=\"pricing.pro.f3\" /></li>\n            <li><FormattedMessage id=\"pricing.pro.f4\" /></li>\n          </ul>\n          <a href=\"/register\" className={styles.btnWhite}><FormattedMessage id=\"pricing.pro.cta\" /></a>\n        </div>\n\n        <div className={styles.card}>\n          <h3><FormattedMessage id=\"pricing.enterprise.name\" /></h3>\n          <p className={styles.price}><FormattedMessage id=\"pricing.enterprise.price\" /></p>\n          <p className={styles.desc}><FormattedMessage id=\"pricing.enterprise.desc\" /></p>\n          <ul>\n            <li><FormattedMessage id=\"pricing.enterprise.f1\" /></li>\n            <li><FormattedMessage id=\"pricing.enterprise.f2\" /></li>\n            <li><FormattedMessage id=\"pricing.enterprise.f3\" /></li>\n          </ul>\n          <a href=\"/register\" className={styles.btn}><FormattedMessage id=\"pricing.enterprise.cta\" /></a>\n        </div>\n      </section>\n\n      <section className={styles.faq}>\n        <h2><FormattedMessage id=\"pricing.faq.title\" /></h2>\n        {[1, 2, 3].map((i) => (\n          <div key={i} className={styles.faqItem}>\n            <button onClick={() => setOpenFaq(openFaq === i ? null : i)}>\n              {intl.formatMessage({ id: `pricing.faq.q${i}` })}\n              <span className={openFaq === i ? styles.open : ''}>▼</span>\n            </button>\n            {openFaq === i && <p>{intl.formatMessage({ id: `pricing.faq.a${i}` })}</p>}\n          </div>\n        ))}\n      </section>\n\n      <footer className={styles.footer}><FormattedMessage id=\"home.footer\" /></footer>\n    </div>\n  );\n}\n",
+      "__isJSFile": true,
+      "__absFile": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/src/pages/pricing.tsx"
+    },
+    "3": {
+      "path": "/register",
+      "file": "@/pages/register.tsx",
+      "id": "3",
+      "absPath": "/register",
+      "__content": "import { useIntl, FormattedMessage, setLocale, getLocale } from 'umi';\nimport { useState } from 'react';\nimport styles from './register.module.scss';\n\ntype Status = 'idle' | 'loading' | 'success' | 'error-email' | 'error-password' | 'error-mismatch' | 'error-duplicate' | 'error-network';\n\nexport default function RegisterPage() {\n  const intl = useIntl();\n  const currentLocale = getLocale();\n  const [email, setEmail] = useState('');\n  const [password, setPassword] = useState('');\n  const [confirm, setConfirm] = useState('');\n  const [status, setStatus] = useState<Status>('idle');\n\n  const handleSubmit = (e: React.FormEvent) => {\n    e.preventDefault();\n    if (!email.trim() || !/^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/.test(email)) { setStatus('error-email'); return; }\n    if (password.length < 8) { setStatus('error-password'); return; }\n    if (password !== confirm) { setStatus('error-mismatch'); return; }\n    setStatus('loading');\n    setTimeout(() => {\n      if (email === 'test@example.com') { setStatus('error-duplicate'); return; }\n      setStatus('success');\n    }, 1500);\n  };\n\n  if (status === 'success') {\n    return (\n      <div className={styles.page}>\n        <div className={styles.successCard}>\n          <div className={styles.checkIcon}>✓</div>\n          <h1><FormattedMessage id=\"register.success.title\" /></h1>\n          <p><FormattedMessage id=\"register.success.desc\" /></p>\n          <a href=\"/\"><FormattedMessage id=\"register.success.back\" /></a>\n        </div>\n      </div>\n    );\n  }\n\n  const isLoading = status === 'loading';\n  const errorId = status.startsWith('error-') ? `register.${status}` : null;\n\n  return (\n    <div className={styles.page}>\n      <div className={styles.top}>\n        <a href=\"/\" className={styles.brand}><FormattedMessage id=\"nav.brand\" /></a>\n        <button className={styles.langBtn} onClick={() => setLocale(currentLocale === 'zh-CN' ? 'en-US' : 'zh-CN', false)}>\n          {currentLocale === 'zh-CN' ? 'EN' : '中文'}\n        </button>\n      </div>\n      <div className={styles.formCard}>\n        <h1><FormattedMessage id=\"register.title\" /></h1>\n        <form onSubmit={handleSubmit}>\n          <label><FormattedMessage id=\"register.email.label\" /></label>\n          <input type=\"email\" placeholder={intl.formatMessage({ id: 'register.email.placeholder' })} value={email} onChange={e => { setEmail(e.target.value); setStatus('idle'); }} />\n\n          <label><FormattedMessage id=\"register.password.label\" /></label>\n          <input type=\"password\" placeholder={intl.formatMessage({ id: 'register.password.placeholder' })} value={password} onChange={e => { setPassword(e.target.value); setStatus('idle'); }} />\n\n          <label><FormattedMessage id=\"register.confirm.label\" /></label>\n          <input type=\"password\" placeholder={intl.formatMessage({ id: 'register.confirm.placeholder' })} value={confirm} onChange={e => { setConfirm(e.target.value); setStatus('idle'); }} />\n\n          {errorId && <p className={styles.error}>{intl.formatMessage({ id: errorId })}</p>}\n\n          <button type=\"submit\" disabled={isLoading} className={isLoading ? styles.btnDisabled : styles.btn}>\n            {isLoading ? intl.formatMessage({ id: 'register.submitting' }) : intl.formatMessage({ id: 'register.submit' })}\n          </button>\n        </form>\n        <p className={styles.loginLink}>\n          <FormattedMessage id=\"register.login.text\" />\n          {' '}<a href=\"#\"><FormattedMessage id=\"register.login.link\" /></a>\n        </p>\n      </div>\n    </div>\n  );\n}\n",
+      "__isJSFile": true,
+      "__absFile": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/src/pages/register.tsx"
+    }
+  },
+  "apiRoutes": {},
+  "hasSrcDir": true,
+  "npmClient": "cnpm",
+  "umi": {
+    "version": "4.6.45",
+    "name": "Umi Max",
+    "importSource": "@umijs/max",
+    "cliName": "max"
+  },
+  "bundleStatus": {
+    "done": false
+  },
+  "mfsuBundleStatus": {
+    "done": false
+  },
+  "react": {
+    "version": "18.3.1",
+    "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/react"
+  },
+  "react-dom": {
+    "version": "18.3.1",
+    "path": "/Users/bahe/Desktop/Private/coding/internationalizedWebsite/nextflow-umi-demo/node_modules/react-dom"
+  },
+  "appJS": null,
+  "locale": "en-US",
+  "globalCSS": [],
+  "globalJS": [],
+  "overridesCSS": [],
+  "bundler": "webpack",
+  "framework": "react",
+  "typescript": {
+    "tsVersion": "6.0.3",
+    "tslibVersion": "2.8.1"
+  },
+  "faviconFiles": [],
+  "port": 8000,
+  "host": "0.0.0.0",
+  "ip": "10.158.145.38"
+}

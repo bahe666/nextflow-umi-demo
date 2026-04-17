@@ -1,0 +1,22 @@
+{
+  "name": "nextflow-umi-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "max dev",
+    "build": "max build",
+    "start": "max preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@umijs/max": "^4.6.45"
+  },
+  "devDependencies": {
+    "sass": "^1.99.0",
+    "typescript": "^6.0.3"
+  }
+}
